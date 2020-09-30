@@ -314,9 +314,11 @@ li {
 }
 
 .stack,
-ul {
+ul,
+li {
   margin-bottom: 0;
   padding: 0;
+  font-size: 0.5em;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
