@@ -1,0 +1,383 @@
+.container {
+    /* align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe; */
+    flex-direction: row | row-reverse | column | column-reverse;
+  }
+
+  .data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: max-content; */
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+  img {
+    width: 100%;
+    justify-content: center;
+    margin: 5px;
+  }
+
+img.rounded {
+    border-radius: 8px;
+  }
+
+
+  .img-logo {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+  .item {
+    width: 48%;
+    height: 100px;
+    margin-bottom: 2%;
+  }
+  
+  header {
+    background-color: #fff;
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+  }
+  
+  header nav ul li:last-child a {
+    margin-right: 0;
+  }
+  
+  @media all and (min-width: 600px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 30px;
+    }
+  
+    header h1 {
+      margin: 14px 0;
+      padding-top: 0;
+    }
+    
+    header nav {
+      margin-top: 8px;
+    }
+  
+    header nav ul li a:hover {
+      color: #bdbdbd;
+    }
+  }
+
+  .jobtitle {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px;
+    color: #cf4d29;
+    text-align: center;
+    letter-spacing: -3;
+    margin: 0;
+  }
+
+  h1 {
+    margin: 0 0 30px 10px;
+  }
+  
+  h2 {
+    margin: 0 10px;
+    font-family: sans-serif;
+  }
+  
+  h3 {
+    margin: 12px 0;
+    border-bottom: 1px solid lightgray;
+  }
+
+  p {
+    font-size: 14px;   
+   }
+   
+  .group {
+    display: flex;
+    flex-direction: row;  
+    margin:0 0 5px;
+    /* margin-bottom: 100px; */
+}
+
+.group-form {
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-around;
+}
+
+.item {
+    flex:1;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    order: 2;
+}
+
+  @media all and (min-width: 800px) {
+    .wrapper, section {
+      padding: 0 15%;
+    }
+  
+    .group {
+        display: flex;
+        justify-content: center;
+      flex-direction: row;
+    }
+  }
+  section.bg-callout {   
+    padding: 60px 0;
+    background-color: lightgray;
+ }
+
+
+  /* Custom personal styles */
+  .logo-p {
+    font-size: 50px;
+    color: #c5c0b8;
+    text-align: center;
+    letter-spacing: -3;
+  }
+
+  .row     { flex-direction: row; }
+
+  .logo-p, p {
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+    letter-spacing: -3;
+  }
+
+  .word-color {
+      color: gray;
+  }
+
+  .word-color-portfolio {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:20px;
+    color: #cf4d29;
+}
+
+  strong {
+      color:chocolate;
+      font-size: 16px;
+      justify-content: center;
+      letter-spacing: -3;
+  }
+
+  footer {
+    background-color: #000;
+    align-items: center;
+}
+#about {
+    background-color: #000;
+    height: 400px;
+    width: auto;
+
+}
+#about,p{
+    margin-top: 20px;
+    padding-top: 10px;
+    color: #fff;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 16px;
+    color: #fff;
+}
+
+#skills {
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.brackets {
+    color: yellow;
+}
+.brackets-react {
+    color: lightblue;
+}
+.brackets-bootstrap {
+    color: purple;
+}
+
+.brackets-node {
+    color: green;
+}
+.brackets-travis {
+    color: red;
+}
+.brackets-netifly {
+    color:blue;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+.main_description {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    text-align: center;
+    letter-spacing: -3;
+    margin: 0;
+    margin-top: -20px;
+    margin-bottom:15px;
+    justify-content: center;
+
+}
+
+#portfolio {
+    margin-bottom: 120px;
+    font-family: 'Nanum Pen Script', cursive;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .main-icons {
+    display:flex;
+    flex-direction: row;
+    width:60px;
+    color: black;
+    justify-content: space-between;
+}
+.icon1, .icon2, .icon3 {
+    color: black;
+    padding: 5px; 
+    justify-content: center;
+}
+
+.icon1:hover {
+    color: chocolate;
+}
+
+.icon2:hover {
+    color: chocolate;
+}
+
+.icon3:hover {
+    color: chocolate;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+/* #contact {
+  background: #F9F9F9;
+  padding: 25px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+} */
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: black;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: black;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+.contact-pagesection, #main, section.contact-page ,.contact-types, .contact-type, .contact-header, .contact-title {
+    font-size: 16px;
+    letter-spacing: .3px;
+    font-stretch: condensed;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 0;
+    background: none;
+    margin-top: 48px;
+}
+
