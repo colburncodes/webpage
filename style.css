@@ -262,13 +262,23 @@ ul, li {
     align-items: center;
     padding: 10px;
   }
-
+/* 
   .main-icons {
     display:flex;
     flex-direction: row;
     width:60px;
     color: black;
     justify-content: space-between;
+} */
+.main-icons-contact {
+  display:flex;
+  flex-direction: row;
+  height: 60px;
+  width:50px;
+  color: black;
+  justify-content: stretch;
+  margin-left: 10px;
+  margin-top: 5px;
 }
 .icon1, .icon2, .icon3 {
     color: black;
