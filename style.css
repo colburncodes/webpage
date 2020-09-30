@@ -240,6 +240,8 @@ ul,
 li {
   list-style-type: none;
   font-size: 20px;
+  padding-top: 10px;
+  margin-left: 10px;
 }
 
 .main_description {
@@ -262,14 +264,7 @@ li {
   align-items: center;
   padding: 10px;
 }
-/* 
-  .main-icons {
-    display:flex;
-    flex-direction: row;
-    width:60px;
-    color: black;
-    justify-content: space-between;
-} */
+
 .main-icons-contact {
   display: flex;
   flex-direction: row;
