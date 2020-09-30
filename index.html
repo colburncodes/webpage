@@ -1,210 +1,326 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
     <title>colburn codes</title>
     <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700&family=Montserrat:wght@300;700&family=Nanum+Pen+Script&display=swap"
-    rel="stylesheet"
-  />
-  <link
-    rel="stylesheet"
-    type="text/css"
-    href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css"
-  />
-  <link href="styles.css" rel="stylesheet" type="text/css" />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700&family=Montserrat:wght@300;700&family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-	<link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      type="text/html"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-<!-- Header | Nav -->
-	<header class="logo-p">
-		<h1>c:\colburn-codes:</h1>
-		<nav>
-			<ul id="menu">
-				<li><a class="word-color" href="#home">{ home</a></li>
-				<li><a class="word-color" href="#about">about</a></li>
-				<li><a class="word-color-portfolio" href="#portfolio">portfolio</a></li>
-				<li><a class="word-color" href="#contact">contact }</a></li>
-			</ul>
-		</nav>
-	</header>
+  <body>
+    <!-- Header | Nav -->
+    <header class="logo-p">
+      <h1>c:\colburn-codes:</h1>
+      <nav>
+        <ul id="menu">
+          <li><a class="word-color" href="#home">{ home</a></li>
+          <li><a class="word-color" href="#about">about</a></li>
+          <li>
+            <a class="word-color-portfolio" href="#portfolio">portfolio</a>
+          </li>
+          <li><a class="word-color" href="#contact">contact }</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <main>
-        <!-- Group 1 -->
-        <section class="introduction">
-            <div class="container">
-                <div class="data">
-                    <div>
-                        <img class="img-logo" src="images/colburn_profile.jpg" alt="colburn profile logo">
-                    </div>
-                    <p class="jobtitle">hi, i'm colburn! javascript full-stack programmer, stl missouri.</p>
-                    <h1 class="main_description-intro">i help build scalable production ready progressive web-apps.</h1>
+      <!-- Group 1 -->
+      <section class="introduction">
+        <div class="container">
+          <div class="data">
+            <div>
+              <img
+                class="img-logo"
+                src="images/colburn_profile.jpg"
+                alt="colburn profile logo"
+              />
+            </div>
+            <p class="jobtitle">
+              hi, i'm colburn! javascript full-stack programmer, stl missouri.
+            </p>
+            <h1 class="main_description-intro">
+              i help build scalable production ready progressive web-apps.
+            </h1>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>about:</h2>
+        <!-- Group #2 with 2 items -->
+        <div class="group">
+          <div class="item">
+            <p>
+              i'm a programmer who enjoys problem-solving as well as developing
+              new features in the full-stack. I have found my home as a computer
+              programmer developing full-stack applications and have become
+              addicted to creating functional tested components.
+            </p>
+          </div>
+          <div class="item item-double">
+            <p>
+              my background has been in .net full-stack framework, my primary
+              goal is to transition from .net to a new role in the
+              <strong>MERN</strong> stack. I enjoy working with a diverse
+              collaborative team that fosters new innovative ideas and growth.
+            </p>
+          </div>
+        </div>
+        <br /><br /><br />
+        <div class="group">
+          <div class="item">
+            <div class="row">
+              <div class="half col-sm-6"></div>
+              <ul class="half col-sm-6">
+                <li class="brackets">{ JavaScript }</li>
+                <li class="brackets-react">{ React | Redux }</li>
+                <li>HTML5 / CSS3</li>
+                <li>jQuery</li>
+                <li class="brackets-bootstrap">{ Bootstrap }</li>
+              </ul>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row">
+              <div class="half col-sm-6"></div>
+              <ul class="half col-sm-6">
+                <li class="brackets-node">{ Node }</li>
+                <li>Express</li>
+                <li>Mongo</li>
+                <li class="brackets-bootstrap">{ .NET | Core }</li>
+                <li>Entity Framework</li>
+              </ul>
+            </div>
+          </div>
+          <div class="item item-double" id="skills">
+            <div class="row">
+              <div class="half col-sm-6"></div>
+              <ul class="half col-sm-6">
+                <li>Git</li>
+                <li class="brackets-netifly">{ Netlify }</li>
+                <li>Heroku</li>
+                <li class="brackets-travis">{ TravisCI }</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PORTFOLIO STARTS HERE-->
+      <section>
+        <!-- <h2>portfolio:</h2> -->
+        <article id="portfolio">
+          <div class="data">
+            <div class="row">
+              <div>
+                <div>
+                  <img
+                    src="images/placeholder.png"
+                    alt="Quiz App Screenshot"
+                    class="rounded"
+                  />
+                  <h3>Quiz App</h3>
+                  <a class="icon1" href="https://www.github.com" target="_blank"
+                    >REPO</a
+                  >
+                  <a
+                    class="icon1"
+                    href="https://colburncodes.github.io/webpage/"
+                    target="_blank"
+                    >Live link</a
+                  >
+                  <ul class="stack">
+                    <li>Vanilla JS ·</li>
+                    <li>Express ·</li>
+                    <li>MongoDB</li>
+                  </ul>
+                  <p class="logo-p">
+                    This is a description of the Quiz App I built. I'll share
+                    what my goal was in creating it, the skills/languages I
+                    applied, and what I learned doing it.
+                  </p>
                 </div>
-            </div>
-        </section>
-        
-        <section id="about">
-            <h2>about:</h2>	
-      <!-- Group #2 with 2 items -->
-			<div class="group">
-				<div class="item">
-                    <p>i'm a programmer who enjoys problem-solving as well developing new features in the full-stack.
-                        I have found my home as a computer programmer developing full stack applications and have become addicted to creating functional tested components.
-                    </p>
-				</div>
-				<div class="item item-double">
-					<p> my background has been in .net full stack framework, my primary goal is to transition from .net to a new role in the <strong>MERN</strong> stack. I enjoy working with a diverse collaborative team who foster new innovative ideas and growth.</p>
-				</div>
-            </div>
-            <br><br><br>
-            <div class="group">
-                <div class="item">
-                    <div class="row">
-                        <div class="half col-sm-6">
-                        </div>
-                        <ul class="half col-sm-6">
-                            <li class="brackets">{ JavaScript }</li>
-                            <li class="brackets-react">{ React | Redux }</li>
-                            <li>HTML5 / CSS3</li>
-                            <li>jQuery</li>
-                            <li class="brackets-bootstrap">{ Bootstrap }</li>
-                        </ul>
-                    </div>
-				</div>
-				<div class="item">
-                    <div class="row">
-                        <div class="half col-sm-6">
-                        </div>
-                        <ul class="half col-sm-6">
-                            <li class="brackets-node">{ Node }</li>
-                            <li>Express</li>
-                            <li>Mongo</li>
-                            <li class="brackets-bootstrap">{ .NET | Core }</li>
-                            <li>Entity Framework</li>
-                        </ul>
-                    </div>
-				</div>
-				<div class="item item-double" id="skills">
-					<div class="row">
-                        <div class="half col-sm-6">
-                        </div>
-                        <ul class="half col-sm-6">
-                            <li>Git</li>
-                            <li class="brackets-netifly">{ Netlify }</li>
-                            <li>Heroku</li>
-                            <li class="brackets-travis">{ TravisCI }</li>
-                        </ul>
-                    </div>
-				</div>
-            </div>
-        </section>
-        <!-- PORTFOLIO STARTS HERE-->
-        <section>
-            <h2>portfolio:</h2>
-            <article id="portfolio">
-                <div class='data'>
-                    <div class="row">
-                        <div>
-                            <div>
-                              <img
-                                src="images/placeholder.png"
-                                alt="Quiz App Screenshot"
-                                class="rounded"
-                              />
-                              <h3>Quiz App</h3>
-                              <p>
-                                This is a description of the Quiz App I built. I'll share what
-                                my goal was in creating it, the skills/languages I applied, and
-                                what I learned doing it.
-                              </p>
-                            </div>
-                        </div>   
-                        <div>
-                            <div>
-                                <img
-                                  src="images/placeholder.png"
-                                  alt="Bookmark App Screenshot"
-                                  class="rounded"
-                                />
-                                <h3>Bookmark App</h3>
-                                <p>
-                                  This is a description of the Bookmark App I built. I'll share
-                                  what my goal was in creating it, the skills/languages I applied,
-                                  and what I learned doing it.
-                                </p>
-                              </div>
-                        </div>         
-                    </div>
-                    <div class="row">
-                        <div>
-                            <div>
-                              <img
-                                src="images/placeholder.png"
-                                alt="Quiz App Screenshot"
-                                class="rounded"
-                              />
-                              <h3>Dev Connect</h3>
-                              <p>
-                                This is a description of the Quiz App I built. I'll share what
-                                my goal was in creating it, the skills/languages I applied, and
-                                what I learned doing it.
-                              </p>
-                            </div>
-                            <div>
-                              <img
-                                src="images/placeholder.png"
-                                alt="Bookmark App Screenshot"
-                                class="rounded"
-                              />
-                              <h3>Food Deserts</h3>
-                              <p>
-                                This is a description of the Bookmark App I built. I'll share
-                                what my goal was in creating it, the skills/languages I applied,
-                                and what I learned doing it.
-                              </p>
-                            </div>
-                          </div>            
-                    </div>
-                    
-                </div>
-            </article>
-            <h2 class="logo animate__animated animate__backInLeft">contact:</h2>
-            <div class="main-icons-contact">
-                <a class="icon1" href="https://www.linkedin.com/in/colburn-sanders/" target="_blank"><i class="btn btn-lg fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
-                <a class="icon2" href="https://www.twitter.com/colburncodes" target="_blank"><i class="btn btn-lg fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
-                <a class="icon3" href="https://github.com/colburncodes"><i class="btn btn-lg fa fa-github fa-lg" aria-hidden="true"></i></a>
-            </div>
-            <div class="container">  
-                <form id="contact" action="https://formspree.io/f/xwkwpngr" method="post">
-                  <fieldset>
-                    <input placeholder="email dddress" name="_replyto" type="email" tabindex="2" required>
-                  </fieldset>
-                  <fieldset>
-                    <textarea placeholder="message here...." name="message" tabindex="5" required></textarea>
-                  </fieldset>
-                  <fieldset>
-                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">submit</button>
-                  </fieldset>
-                </form>
               </div>
-        </section>
-
-
-
+              <div>
+                <div>
+                  <img
+                    src="images/placeholder.png"
+                    alt="Bookmark App Screenshot"
+                    class="rounded"
+                  />
+                  <h3>Bookmark App</h3>
+                  <a class="icon1" href="https://www.github.com" target="_blank"
+                    >REPO</a
+                  >
+                  <a
+                    class="icon1"
+                    href="https://colburncodes.github.io/webpage/"
+                    target="_blank"
+                    >Live link</a
+                  >
+                  <ul class="stack">
+                    <li>Vanilla JS ·</li>
+                    <li>Express ·</li>
+                    <li>MongoDB</li>
+                  </ul>
+                  <p class="logo-p">
+                    This is a description of the Bookmark App I built. I'll
+                    share what my goal was in creating it, the skills/languages
+                    I applied, and what I learned doing it.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <div>
+                  <img
+                    src="images/placeholder.png"
+                    alt="Quiz App Screenshot"
+                    class="rounded"
+                  />
+                  <h3>Dev Connect</h3>
+                  <a class="icon1" href="https://www.github.com" target="_blank"
+                    >REPO</a
+                  >
+                  <a
+                    class="icon1"
+                    href="https://colburncodes.github.io/webpage/"
+                    target="_blank"
+                    >Live link</a
+                  >
+                  <ul class="stack">
+                    <li>Vanilla JS ·</li>
+                    <li>React | Redux·</li>
+                    <li>Express ·</li>
+                    <li>MongoDB</li>
+                  </ul>
+                  <p class="logo-p">
+                    This is a description of the Quiz App I built. I'll share
+                    what my goal was in creating it, the skills/languages I
+                    applied, and what I learned doing it.
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="images/placeholder.png"
+                    alt="Bookmark App Screenshot"
+                    class="rounded"
+                  />
+                  <h3>Food Deserts</h3>
+                  <a class="icon1" href="https://www.github.com" target="_blank"
+                    >REPO</a
+                  >
+                  <a
+                    class="icon1"
+                    href="https://colburncodes.github.io/webpage/"
+                    target="_blank"
+                    >Live link</a
+                  >
+                  <ul class="stack">
+                    <li>Vanilla JS ·</li>
+                    <li>React | Redux·</li>
+                    <li>Express ·</li>
+                    <li>MongoDB</li>
+                  </ul>
+                  <p class="logo-p">
+                    This is a description of the Bookmark App I built. I'll
+                    share what my goal was in creating it, the skills/languages
+                    I applied, and what I learned doing it.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <h2 class="logo animate__animated animate__backInLeft">contact:</h2>
+        <h2 class="logo animate__animated animate__backInLeft">
+          colburnsanders@gmail.com
+        </h2>
+        <div class="main-icons-contact">
+          <a
+            class="icon1"
+            href="https://www.linkedin.com/in/colburn-sanders/"
+            target="_blank"
+            ><i class="btn btn-lg fa fa-linkedin fa-lg" aria-hidden="true"></i
+          ></a>
+          <a
+            class="icon2"
+            href="https://www.twitter.com/colburncodes"
+            target="_blank"
+            ><i
+              class="btn btn-lg fa fa-twitter-square fa-lg"
+              aria-hidden="true"
+            ></i
+          ></a>
+          <a class="icon3" href="https://github.com/colburncodes"
+            ><i class="btn btn-lg fa fa-github fa-lg" aria-hidden="true"></i
+          ></a>
+        </div>
+        <div class="container">
+          <form
+            id="contact"
+            action="https://formspree.io/f/xwkwpngr"
+            method="post"
+          >
+            <fieldset>
+              <input
+                placeholder="email dddress"
+                name="_replyto"
+                type="email"
+                tabindex="2"
+                required
+              />
+            </fieldset>
+            <fieldset>
+              <textarea
+                placeholder="message here...."
+                name="message"
+                tabindex="5"
+                required
+              ></textarea>
+            </fieldset>
+            <fieldset>
+              <button
+                name="submit"
+                type="submit"
+                id="contact-submit"
+                data-submit="...Sending"
+              >
+                submit
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
     </main>
-
-	<script src="script.js"></script>
-</body>
+  </body>
 </html>
